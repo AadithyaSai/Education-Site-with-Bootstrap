@@ -1,0 +1,63 @@
+body {
+  background-color: #181a1b;
+  font-family: "Roboto", Helventica, monospace;
+}
+
+#navbar {
+  background-color: #131516;
+}
+
+#navbar .input-group-text {
+  background-color: inherit !important;
+}
+
+#navbar select {
+  background-color: #131516 !important;
+
+  border-radius: 0%;
+}
+
+button {
+  background-color: #2d9047 !important;
+  border: 0px;
+}
+
+a {
+  color: #2d9047;
+}
+
+a:active {
+  color: green;
+  transition: 0.3s transform ease-in-out;
+  transform: translateX(4px);
+}
+
+#breadcrumbnav {
+  background-color: #1b1e1f;
+}
+
+#sidebardiv {
+  background-color: #1b1e1f !important;
+}
+
+#sidebardiv .list-group-item {
+  background-color: inherit !important;
+}
+
+#sidebardiv .list-group-item:hover {
+  background-color: inherit !important;
+}
+
+#sidebardiv .active {
+  background-color: inherit !important;
+  color: #2d9047;
+}
+
+button[aria-expanded="true"] .fa-chevron-right {
+  transition: 0.3s transform ease-in-out;
+  transform: rotate(90deg);
+}
+
+button[aria-expanded="false"] .fa-chevron-right {
+  transition: 0.3s transform ease-in-out;
+}
