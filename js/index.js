@@ -58,7 +58,7 @@ function updateLang(language) {
     "s3s3",
   ];
 
-  fetch(`../lang/${language}.json`)
+  fetch(`https://raw.githubusercontent.com/AadithyaSai/Education-Site-with-Bootstrap/main/lang/${language}.json`)
     .then((response) => response.json())
     .then((json) => {
       for (ss of subsections) {
